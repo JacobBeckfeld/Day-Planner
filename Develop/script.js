@@ -59,6 +59,102 @@ if(moment().hour() < 9){
 
 //second hour
 
+if(moment().hour() == 10){
+    $("#agendaTwo").attr("style", "background-color: red")
+}
+if(moment().hour() > 10){
+    $("#agendaTwo").attr("style", "background-color: grey")
+}
+if(moment().hour() < 10){
+    $("#agendaTwo").attr("style", "background-color: green")
+}
+
+//third hour
+
+if(moment().hour() == 11){
+    $("#agendaThree").attr("style", "background-color: red")
+}
+if(moment().hour() > 11){
+    $("#agendaThree").attr("style", "background-color: grey")
+}
+if(moment().hour() < 11){
+    $("#agendaThree").attr("style", "background-color: green")
+}
+
+
+//fourth hour
+
+if(moment().hour() == 12){
+    $("#agendaFour").attr("style", "background-color: red")
+}
+if(moment().hour() > 12){
+    $("#agendaFour").attr("style", "background-color: grey")
+}
+if(moment().hour() < 12){
+    $("#agendaFour").attr("style", "background-color: green")
+}
+
+//fith hour
+
+if(moment().hour() == 13){
+    $("#agendaFive").attr("style", "background-color: red")
+}
+if(moment().hour() > 13){
+    $("#agendaFive").attr("style", "background-color: grey")
+}
+if(moment().hour() < 13){
+    $("#agendaFive").attr("style", "background-color: green")
+}
+
+//sixth hour
+
+if(moment().hour() == 14){
+    $("#agendaSix").attr("style", "background-color: red")
+}
+if(moment().hour() > 14){
+    $("#agendaSix").attr("style", "background-color: grey")
+}
+if(moment().hour() < 14){
+    $("#agendaSix").attr("style", "background-color: green")
+}
+
+//seventh hour
+
+if(moment().hour() == 15){
+    $("#agendaSeven").attr("style", "background-color: red")
+}
+if(moment().hour() > 15){
+    $("#agendaSeven").attr("style", "background-color: grey")
+}
+if(moment().hour() < 15){
+    $("#agendaSeven").attr("style", "background-color: green")
+}
+
+//eigth hour
+
+if(moment().hour() == 16){
+    $("#agendaEight").attr("style", "background-color: red")
+}
+if(moment().hour() > 16){
+    $("#agendaEight").attr("style", "background-color: grey")
+}
+if(moment().hour() < 16){
+    $("#agendaEight").attr("style", "background-color: green")
+}
+
+//nineth hour
+
+if(moment().hour() == 17){
+    $("#agendaNine").attr("style", "background-color: red")
+}
+if(moment().hour() > 17){
+    $("#agendaNine").attr("style", "background-color: grey")
+}
+if(moment().hour() < 17){
+    $("#agendaNine").attr("style", "background-color: green")
+}
+
+
 
 
 //set save buttons to save each individual text input
