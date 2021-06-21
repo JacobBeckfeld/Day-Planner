@@ -48,110 +48,110 @@ $("#saveNine").on("click", function(){
 //First hour
 
 if(moment().hour() == 9){
-    $("#agendaOne").attr("style", "background-color: red")
+    $("#agendaOne").attr("style", "background-color: #ff6961")
 }
 if(moment().hour() > 9){
-    $("#agendaOne").attr("style", "background-color: grey")
+    $("#agendaOne").attr("style", "background-color: #d3d3d3")
 }
 if(moment().hour() < 9){
-    $("#agendaOne").attr("style", "background-color: green")
+    $("#agendaOne").attr("style", "background-color: #77dd77")
 }
 
 //second hour
 
 if(moment().hour() == 10){
-    $("#agendaTwo").attr("style", "background-color: red")
+    $("#agendaTwo").attr("style", "background-color: #ff6961")
 }
 if(moment().hour() > 10){
-    $("#agendaTwo").attr("style", "background-color: grey")
+    $("#agendaTwo").attr("style", "background-color: #d3d3d3")
 }
 if(moment().hour() < 10){
-    $("#agendaTwo").attr("style", "background-color: green")
+    $("#agendaTwo").attr("style", "background-color: #77dd77")
 }
 
 //third hour
 
 if(moment().hour() == 11){
-    $("#agendaThree").attr("style", "background-color: red")
+    $("#agendaThree").attr("style", "background-color: #ff6961")
 }
 if(moment().hour() > 11){
-    $("#agendaThree").attr("style", "background-color: grey")
+    $("#agendaThree").attr("style", "background-color: #d3d3d3")
 }
 if(moment().hour() < 11){
-    $("#agendaThree").attr("style", "background-color: green")
+    $("#agendaThree").attr("style", "background-color: #77dd77")
 }
 
 
 //fourth hour
 
 if(moment().hour() == 12){
-    $("#agendaFour").attr("style", "background-color: red")
+    $("#agendaFour").attr("style", "background-color: #ff6961")
 }
 if(moment().hour() > 12){
-    $("#agendaFour").attr("style", "background-color: grey")
+    $("#agendaFour").attr("style", "background-color: #d3d3d3")
 }
 if(moment().hour() < 12){
-    $("#agendaFour").attr("style", "background-color: green")
+    $("#agendaFour").attr("style", "background-color: #77dd77")
 }
 
 //fith hour
 
 if(moment().hour() == 13){
-    $("#agendaFive").attr("style", "background-color: red")
+    $("#agendaFive").attr("style", "background-color: #ff6961")
 }
 if(moment().hour() > 13){
-    $("#agendaFive").attr("style", "background-color: grey")
+    $("#agendaFive").attr("style", "background-color: #d3d3d3")
 }
 if(moment().hour() < 13){
-    $("#agendaFive").attr("style", "background-color: green")
+    $("#agendaFive").attr("style", "background-color: #77dd77")
 }
 
 //sixth hour
 
 if(moment().hour() == 14){
-    $("#agendaSix").attr("style", "background-color: red")
+    $("#agendaSix").attr("style", "background-color: #ff6961")
 }
 if(moment().hour() > 14){
-    $("#agendaSix").attr("style", "background-color: grey")
+    $("#agendaSix").attr("style", "background-color: #d3d3d3")
 }
 if(moment().hour() < 14){
-    $("#agendaSix").attr("style", "background-color: green")
+    $("#agendaSix").attr("style", "background-color: #77dd77")
 }
 
 //seventh hour
 
 if(moment().hour() == 15){
-    $("#agendaSeven").attr("style", "background-color: red")
+    $("#agendaSeven").attr("style", "background-color: #ff6961")
 }
 if(moment().hour() > 15){
-    $("#agendaSeven").attr("style", "background-color: grey")
+    $("#agendaSeven").attr("style", "background-color: #d3d3d3")
 }
 if(moment().hour() < 15){
-    $("#agendaSeven").attr("style", "background-color: green")
+    $("#agendaSeven").attr("style", "background-color: #77dd77")
 }
 
 //eigth hour
 
 if(moment().hour() == 16){
-    $("#agendaEight").attr("style", "background-color: red")
+    $("#agendaEight").attr("style", "background-color: #ff6961")
 }
 if(moment().hour() > 16){
-    $("#agendaEight").attr("style", "background-color: grey")
+    $("#agendaEight").attr("style", "background-color: #d3d3d3")
 }
 if(moment().hour() < 16){
-    $("#agendaEight").attr("style", "background-color: green")
+    $("#agendaEight").attr("style", "background-color: #77dd77")
 }
 
 //nineth hour
 
 if(moment().hour() == 17){
-    $("#agendaNine").attr("style", "background-color: red")
+    $("#agendaNine").attr("style", "background-color: #ff6961")
 }
 if(moment().hour() > 17){
-    $("#agendaNine").attr("style", "background-color: grey")
+    $("#agendaNine").attr("style", "background-color: #d3d3d3")
 }
 if(moment().hour() < 17){
-    $("#agendaNine").attr("style", "background-color: green")
+    $("#agendaNine").attr("style", "background-color: #77dd77")
 }
 
 
